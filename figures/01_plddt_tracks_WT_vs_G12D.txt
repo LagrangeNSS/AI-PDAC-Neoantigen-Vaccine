@@ -1,0 +1,12 @@
+# 01_plddt_tracks_WT_vs_G12D.png
+timestamp_utc: 2026-05-13T20:50Z
+produced_by: tools/make_step4_figures.py:fig1_plddt_tracks
+af2_wt_scores:  /mnt/d/AssignmentOPUS/colabfold/kras_wt_1-169/KRAS_human_WT_Gdomain_1-169_KRAS-4B_catalytic_G-domain_residues_1-169__P-loop_SwI_SwII___WT__UniProt_P01116-2_scores_rank_001_alphafold2_ptm_model_5_seed_042.json
+af2_g12d_scores:/mnt/d/AssignmentOPUS/colabfold/kras_g12d_1-169/KRAS_human_G12D_Gdomain_1-169_KRAS-4B_catalytic_G-domain_residues_1-169_with_G12D_substitution__UniProt_P01116-2_scores_rank_001_alphafold2_ptm_model_5_seed_042.json
+esm_wt_metrics: /mnt/d/AssignmentOPUS/esmfold/kras_wt_1-169/kras_wt_KRAS_human_WT_Gdomain_1-169_metrics.json
+esm_g12d_metrics:/mnt/d/AssignmentOPUS/esmfold/kras_g12d_1-169/kras_g12d_KRAS_human_G12D_Gdomain_1-169_metrics.json
+mean_plddt_af2_wt   = 93.66
+mean_plddt_af2_g12d = 93.28
+mean_plddt_esm_wt   = 86.06
+mean_plddt_esm_g12d = 86.08
+gate: pLDDT >= 85 hard gate; all four predictions PASS.

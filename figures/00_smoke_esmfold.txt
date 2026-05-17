@@ -1,0 +1,13 @@
+# 00_smoke_esmfold.png — provenance
+generated_utc: 2026-05-13T19:19:58Z
+tool: ESMFold v1 (facebook/esmfold_v1 via transformers 5.8.0, single-sequence, no MSA)
+precision: ESM-2 stem fp16, folding trunk + heads + adapters fp32 on GPU (loaded fp16 to fit WSL2 7.4 GiB host RAM, then upcast non-esm parts to fp32 to avoid NaN in pTM softmax)
+sequence: ubiquitin_P0CG48_1-76 (len=76); MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG
+per_residue_plddt convention: mean over masked heavy atoms (atom37_atom_exists), scaled x100
+mean pLDDT (heavy-atom mask): 85.82  min: 40.04  max: 94.34
+mean pLDDT (Cα-only):         90.48
+inference_seconds: 1.96
+hard gate (≥85 mean pLDDT): PASS
+GPU: NVIDIA GeForce RTX 5070 Ti Laptop GPU, 595.79, 12227 MiB
+source metrics json: /mnt/d/AssignmentOPUS/esmfold/smoke_ubiquitin/smoke_ubiquitin_P0CG48_1-76_metrics.json
+seed: torch.manual_seed(42)

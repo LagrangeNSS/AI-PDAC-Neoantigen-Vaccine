@@ -1,0 +1,131 @@
+{
+  "mutation": "G12D",
+  "hla_allele": "HLA-A*11:01",
+  "method": "tools.mhc P2/P9 anchor motif (A3 supertype). Conservative shortlister, NOT a binding-affinity predictor.",
+  "wt_sequence_source": "data/sequences/kras_wt_human.fasta",
+  "g12d_sequence_source": "data/sequences/kras_g12d_human.fasta",
+  "windows_covering_position_12": [
+    {
+      "start_1based": 4,
+      "end_1based": 12,
+      "g12d_peptide": "YKLVVVGAD",
+      "wt_peptide": "YKLVVVGAG",
+      "p2": "K",
+      "p2_tier": "poor",
+      "p9": "D",
+      "p9_tier": "poor",
+      "overall_tier": "poor",
+      "foreign_vs_wt": true
+    },
+    {
+      "start_1based": 5,
+      "end_1based": 13,
+      "g12d_peptide": "KLVVVGADG",
+      "wt_peptide": "KLVVVGAGG",
+      "p2": "L",
+      "p2_tier": "preferred",
+      "p9": "G",
+      "p9_tier": "poor",
+      "overall_tier": "poor",
+      "foreign_vs_wt": true
+    },
+    {
+      "start_1based": 6,
+      "end_1based": 14,
+      "g12d_peptide": "LVVVGADGV",
+      "wt_peptide": "LVVVGAGGV",
+      "p2": "V",
+      "p2_tier": "preferred",
+      "p9": "V",
+      "p9_tier": "poor",
+      "overall_tier": "poor",
+      "foreign_vs_wt": true
+    },
+    {
+      "start_1based": 7,
+      "end_1based": 15,
+      "g12d_peptide": "VVVGADGVG",
+      "wt_peptide": "VVVGAGGVG",
+      "p2": "V",
+      "p2_tier": "preferred",
+      "p9": "G",
+      "p9_tier": "poor",
+      "overall_tier": "poor",
+      "foreign_vs_wt": true
+    },
+    {
+      "start_1based": 8,
+      "end_1based": 16,
+      "g12d_peptide": "VVGADGVGK",
+      "wt_peptide": "VVGAGGVGK",
+      "p2": "V",
+      "p2_tier": "preferred",
+      "p9": "K",
+      "p9_tier": "preferred",
+      "overall_tier": "preferred",
+      "foreign_vs_wt": true
+    },
+    {
+      "start_1based": 9,
+      "end_1based": 17,
+      "g12d_peptide": "VGADGVGKS",
+      "wt_peptide": "VGAGGVGKS",
+      "p2": "G",
+      "p2_tier": "poor",
+      "p9": "S",
+      "p9_tier": "poor",
+      "overall_tier": "poor",
+      "foreign_vs_wt": true
+    },
+    {
+      "start_1based": 10,
+      "end_1based": 18,
+      "g12d_peptide": "GADGVGKSA",
+      "wt_peptide": "GAGGVGKSA",
+      "p2": "A",
+      "p2_tier": "tolerated",
+      "p9": "A",
+      "p9_tier": "poor",
+      "overall_tier": "poor",
+      "foreign_vs_wt": true
+    },
+    {
+      "start_1based": 11,
+      "end_1based": 19,
+      "g12d_peptide": "ADGVGKSAL",
+      "wt_peptide": "AGGVGKSAL",
+      "p2": "D",
+      "p2_tier": "poor",
+      "p9": "L",
+      "p9_tier": "poor",
+      "overall_tier": "poor",
+      "foreign_vs_wt": true
+    },
+    {
+      "start_1based": 12,
+      "end_1based": 20,
+      "g12d_peptide": "DGVGKSALT",
+      "wt_peptide": "GGVGKSALT",
+      "p2": "G",
+      "p2_tier": "poor",
+      "p9": "T",
+      "p9_tier": "poor",
+      "overall_tier": "poor",
+      "foreign_vs_wt": true
+    }
+  ],
+  "shortlist_preferred_or_tolerated_and_foreign": [
+    {
+      "start_1based": 8,
+      "end_1based": 16,
+      "g12d_peptide": "VVGADGVGK",
+      "wt_peptide": "VVGAGGVGK",
+      "p2": "V",
+      "p2_tier": "preferred",
+      "p9": "K",
+      "p9_tier": "preferred",
+      "overall_tier": "preferred",
+      "foreign_vs_wt": true
+    }
+  ]
+}

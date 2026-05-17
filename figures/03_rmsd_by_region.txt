@@ -1,0 +1,7 @@
+# 03_rmsd_by_region.png
+timestamp_utc: 2026-05-13T20:50Z
+produced_by: tools/make_step4_figures.py:fig3_rmsd_by_region
+method: Kabsch superposition (Biopython SVDSuperimposer), Cα atoms, monomer chain A.
+within_stack_WT_vs_G12D_full: AF2=0.102 Å, ESM=0.081 Å
+cross_stack_AF2_vs_ESM_core: WT=0.598 Å, G12D=0.616 Å
+interpretation: G12D is globally structure-preserving in both stacks; cross-stack disagreement concentrates in Switch II.

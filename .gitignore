@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Caches and downloaded weights
+cache/
+.cache/
+huggingface/
+torch_cache/
+
+# Intermediate prediction runs (already excluded from the open-source bundle)
+colabfold/
+esmfold/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Claude Code
+.claude/
+
+# Secrets — never commit
+*.env
+.env.local
+*token*
+*credential*

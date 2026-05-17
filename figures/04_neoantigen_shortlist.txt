@@ -1,0 +1,7 @@
+# 04_neoantigen_shortlist.png
+timestamp_utc: 2026-05-13T20:50Z
+produced_by: tools/make_step4_figures.py:fig4_neoantigen_shortlist
+input: /mnt/d/AssignmentOPUS/analysis/neoantigen_9mers.json
+scorer: tools.mhc P2/P9 anchor motif for HLA-A*11:01 (A3 supertype).
+shortlist_count: 1 of 9
+shortlist_peptide: VVGADGVGK (residues 8-16) — matches Tran 2016 NEJM and Rojas 2023 Nature canonical neoepitope.

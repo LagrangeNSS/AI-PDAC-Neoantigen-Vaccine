@@ -1,0 +1,6 @@
+# 02_plddt_zoom_mutation_site.png
+timestamp_utc: 2026-05-13T20:50Z
+produced_by: tools/make_step4_figures.py:fig2_zoom_mutation
+position_12_AF2_WT=91.31  AF2_G12D=90.94  Δ=-0.37
+position_12_ESM_WT=84.76  ESM_G12D=80.91  Δ=-3.85
+interpretation: ESMFold reports a localised confidence drop at the mutation site; AF2 (with MSA) does not.

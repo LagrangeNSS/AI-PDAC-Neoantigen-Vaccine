@@ -1,0 +1,12 @@
+# 00_smoke_colabfold.png — provenance
+generated_utc: 2026-05-13T19:19:58Z
+tool: ColabFold (sokrypton/ColabFold HEAD, alphafold-minus-jax weights via colabfold_batch)
+flags (brief-locked): --num-models 5 --num-recycle 3 --rank plddt --model-type alphafold2_ptm --random-seed 42 --msa-mode mmseqs2_uniref_env --disable-unified-memory
+sequence: ubiquitin_P0CG48_1-76 (len=76); MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG
+rank-1 model: ubiquitin_P0CG48_1-76_Human_ubiquitin__UniProt_P0CG48__monomer_1_76___used_as_ColabFold_ESMFold_smoke_target._scores_rank_001_alphafold2_ptm_model_4_seed_042.json
+rank-1 mean pLDDT: 95.90  min: 50.12  max: 98.69
+rank-1 pTM: 0.84
+hard gate (≥85 mean pLDDT): PASS
+GPU: NVIDIA GeForce RTX 5070 Ti Laptop GPU, 595.79, 12227 MiB
+source score json: /mnt/d/AssignmentOPUS/colabfold/smoke_ubiquitin/ubiquitin_P0CG48_1-76_Human_ubiquitin__UniProt_P0CG48__monomer_1_76___used_as_ColabFold_ESMFold_smoke_target._scores_rank_001_alphafold2_ptm_model_4_seed_042.json
+source run log:    /mnt/d/AssignmentOPUS/logs/colabfold_runs/smoke_ubiquitin.log
