@@ -146,7 +146,7 @@ python tools/make_figures.py
 4. **没有湿实验。** 全部结果都是 in-silico 推理,**未经任何细胞或动物实验验证**。
 5. **HLA 仅覆盖 A\*11:01。** 没有评估 G12D 在其他 HLA 等位基因(尤其 HLA-C\*08:02 / A\*03:01)上的呈递。
 6. **`Copyright (c) 2026 [Your Name]`。** `LICENSE` 文件保留了 `[Your Name]` 占位符,首次发布前请替换为作者真实姓名或机构名。
-7. **`prompts/RESEARCH_PROMPT.md` 是占位文件。** 作者尚未粘贴原始研究 prompt。该文件标注了首次复现前需要替换的所有硬件相关字段。
+
 
 ## 8. 如何引用本仓库
 
@@ -313,7 +313,7 @@ Sliding-window 9-mers around residue 12 of KRAS G12D were filtered by HLA-A\*11:
 4. **No wet-lab validation.** All findings are *in silico*. Nothing here has been tested in cells or animals.
 5. **HLA scope is A\*11:01 only.** No assessment of G12D presentation on other HLA alleles (notably HLA-C\*08:02 / A\*03:01).
 6. **`Copyright (c) 2026 [Your Name]`.** The `LICENSE` file still carries the `[Your Name]` placeholder — replace it with the actual author / institution name before the first public release.
-7. **`prompts/RESEARCH_PROMPT.md` is a placeholder.** The original research prompt has not yet been pasted in; that file also documents the hardware-specific fields that need editing before reuse.
+
 
 ## 8. How to cite
 
